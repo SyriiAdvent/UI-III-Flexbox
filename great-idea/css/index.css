@@ -4,8 +4,8 @@
   }
 
 body {
-    width: 85%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 2% auto;
     line-height: 1.2;
 }
 
@@ -16,24 +16,23 @@ p {
 /** Navigation bar**/
 
 nav {
-    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar{
+    
 	width: 100%;
     margin: 2% auto;
-    display: inline-block;
 }
 
 .nav-bar a{
-	display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	width: 12%;
-	margin: 0 auto;
 	text-decoration: none;
 	color: #708090;
-    vertical-align: middle;
-    text-align: center;
-    padding: 0;
 }
 
 .nav-bar a:hover {
@@ -54,46 +53,47 @@ nav {
 }
 
 .nav-bar .logo {
-    display: inline-block;
-    width: 25%;
-    vertical-align: middle;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    margin-left: 10%;
 }
+
+
 
 /** slogan area **/
 
-header {
-    width: 100%;
-    margin: 2% 0;
-    display: inline-box;
+header  section {
+    margin-top: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-top: 3%;
 }
 
-header .slogan-container {
-    display: inline-block;
-    width: 49%;
-    font-size: 80px;
+header section{
+    padding: 0 0%;
+}
+
+/* header section div{
+    width: 50%;
+} */
+
+header section h1 {
     text-align: center;
-}
-
-
-header h1 {
+    font-size: 80px;
     margin: 0;
-}
-header img {
-    display: inline-block;
-    width: 48%;
-    height: 100%;
 }
 
 .button-start {
-    width: 37%;
+    display: flex;
     border: 1px solid black;
-	padding: 5px 7%;
+	padding: 5px 40px 5px 40px;
     text-align: center;
     color: black;
     background-color: white;
     font-size: 18px;
-    vertical-align: top;
-    margin-top: 5%;
+    margin-left: 20%;
 }
 
 /** STRETCH GOAL BUTTON HOVER**/
@@ -106,13 +106,13 @@ button:hover{
 /** Content area 1 **/
 
 .top-content {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     margin: 3% 1.5%;
 }
 
 .top-content div {
-    display: inline-block;
     width: 49%;
 }
 
@@ -126,13 +126,13 @@ button:hover{
 /** Content area 2 **/
 
 .bottom-content {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    margin: 3% 1.5%;
+
 }
 
 .bottom-content div {
-    display: inline-block;
     width: 32.5%;
 }
 
