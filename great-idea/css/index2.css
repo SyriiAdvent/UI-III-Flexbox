@@ -16,8 +16,7 @@ nav {
 }
 
 .logo a {
-  display: flex;
-  width: 25%;
+  /* width: 25%; */
   margin-left: 5.5%;
 }
 
@@ -26,7 +25,7 @@ nav a {
   justify-content: center;
   align-items: center;
 
-  width: 15%;
+  /* width: 15%; */
   text-decoration: none;
   color: #708090;
 }
