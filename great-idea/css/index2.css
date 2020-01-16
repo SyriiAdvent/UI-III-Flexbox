@@ -1,0 +1,100 @@
+* {
+    max-width: 100%;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+
+.logo {
+    width: 25%;
+    margin-left: 5.5%;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+	width: 15%;
+	text-decoration: none;
+	color: #708090;
+}
+
+nav a:hover {
+    animation-name: scale-up-box;
+    transition: 0.5s;
+    background-color: black;
+    color: yellowgreen;
+}
+
+hr {
+    margin: 3% 0;
+}
+
+/* @keyframes scale-up-box {
+    0% {
+        transform: scaleY(0.4);
+        transform-origin: 0% 100%;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: 0% 100%;
+    }
+} */
+
+.services-header-img {
+    margin-bottom: 3%;
+}
+
+.services {
+    margin-bottom: 2%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .column .one{
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.features .column .two{
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.features .column .one, .two h2{
+    padding: 3.5% 3%;
+}
+
+.features .column .one, .two {
+    width: 95%;
+    height: 35%;
+}
+
+.features .column .features-content {
+    border: 1px solid black;
+    background-color:  rgba(211, 211, 211, 0.452);
+}
+
+.features .column .features-content one, two, three {
+    
+}
+
+aboutus{
+    b
+    display: flex;
+    
+}
