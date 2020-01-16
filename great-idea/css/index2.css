@@ -15,7 +15,8 @@ nav {
   margin-bottom: 1%;
 }
 
-.logo {
+.logo a {
+  display: flex;
   width: 25%;
   margin-left: 5.5%;
 }
